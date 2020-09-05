@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<package>
+  <metadata>
+    <id>Xam.iOS.IQKeyboardManager</id>
+    <version>6.5.6</version>
+    <title>Xam.iOS.IQKeyboardManager</title>
+    <authors>Giuseppe Novielli, hackiftekhar</authors>
+    <owners>Giuseppe Novielli</owners>
+	<license type="expression">MIT</license>
+    <projectUrl>https://github.com/giuseppenovielli/Xam.IQKeyboardManager</projectUrl>
+    <icon>icon.png</icon>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Xamarin.iOS Binding of hackiftekhar.IQKeyboardManager library https://github.com/hackiftekhar/IQKeyboardManager by Giuseppe Novielli</description>
+    <releaseNotes>Sync Version to original library 6.5.6</releaseNotes>
+    <copyright>Copyright 2020 Giuseppe Novielli</copyright>
+    <tags>IQKeyboardManager xamarin xamarin.ios xamarin.forms</tags>
+    <summary>Xamarin.iOS Binding of hackiftekhar.IQKeyboardManager library https://github.com/hackiftekhar/IQKeyboardManager by Giuseppe Novielli</summary>
+  </metadata>
+  <files>
+    <file src="XamIQKeyboardManager/bin/Release/XamIQKeyboardManager.dll" target="lib/Xamarin.iOS/XamIQKeyboardManager.dll" />
+	<file src="icon.png" target="" />
+	</files>
+
+</package>

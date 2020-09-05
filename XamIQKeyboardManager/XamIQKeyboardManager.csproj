@@ -11,6 +11,19 @@
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
     <AssemblyName>XamIQKeyboardManager</AssemblyName>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+    <PackageId>Xam.IQKeyboardManager</PackageId>
+    <PackageVersion>6.5.6</PackageVersion>
+    <Authors>giuseppenovielli, hackiftekhar</Authors>
+    <Copyright>Copyright 2020 Giuseppe Novielli</Copyright>
+    <PackageIconUrl>https://raw.githubusercontent.com/hackiftekhar/IQKeyboardManager/master/Demo/Resources/icon.png</PackageIconUrl>
+    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <Owners>giuseppenovielli</Owners>
+    <PackageProjectUrl>https://github.com/giuseppenovielli/Xam.IQKeyboardManager</PackageProjectUrl>
+    <PackageReleaseNotes>Sync Version to original library 6.5.6</PackageReleaseNotes>
+    <Summary>Xamarin.iOS Binding of hackiftekhar.IQKeyboardManager library https://github.com/hackiftekhar/IQKeyboardManager by Giuseppe Novielli</Summary>
+    <PackageTags>IQKeyboardManager xamarin xamarin.ios xamarin.forms</PackageTags>
+    <Title>Xam.IQKeyboardManager</Title>
+    <Description>Xamarin.iOS Binding of hackiftekhar.IQKeyboardManager library https://github.com/hackiftekhar/IQKeyboardManager by Giuseppe Novielli</Description>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>

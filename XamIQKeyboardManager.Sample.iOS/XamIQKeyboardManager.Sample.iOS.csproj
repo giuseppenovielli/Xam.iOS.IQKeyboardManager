@@ -132,16 +132,15 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="4.8.0.1364" />
     <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
+    <PackageReference Include="Xam.iOS.IQKeyboardManager">
+      <Version>6.5.6</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\XamIQKeyboardManager.Sample\XamIQKeyboardManager.Sample.csproj">
       <Project>{F7419E93-4680-431B-96B4-AD9032437E47}</Project>
       <Name>XamIQKeyboardManager.Sample</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\XamIQKeyboardManager\XamIQKeyboardManager.csproj">
-      <Project>{ED1C8119-C255-419B-81CA-7AB836F6EFDB}</Project>
-      <Name>XamIQKeyboardManager</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>

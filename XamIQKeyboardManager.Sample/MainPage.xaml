@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" 
+    ios:Page.UseSafeArea="true"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="XamIQKeyboardManager.Sample.MainPage">
+    <StackLayout
+        Padding="10">
+
+        <Entry
+            TextColor="Black"
+            Placeholder="Test UITextField"/>
+        <Entry
+            TextColor="Black"
+            Placeholder="Test UITextField"/>
+        <Entry
+            TextColor="Black"
+            Placeholder="Test UITextField"/>
+        <Entry
+            TextColor="Black"
+            Placeholder="Test UITextField"/>
+
+         <Editor
+             VerticalOptions="FillAndExpand"
+            TextColor="Black"
+            Placeholder="Test UITextView"/>
+           
+    </StackLayout>
+</ContentPage>
